@@ -1,7 +1,7 @@
 {
     "name": "FIRE MD",
     "version": "2.1.0",
-    "description": "A FIRE NATION  BY OPAKSFIRE",
+    "description": "A Bot Made Just For Eze💯",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -19,7 +19,7 @@
     "keywords": [],
     "homepage": "https://github.com/Opaksfire/FIRE-MD/",
     "author": {
-        "name": "OPAKSFIRE"
+        "name": "Eze💯"
     },
     "repository": {
         "type": "git",
