@@ -6,12 +6,12 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "2347044994545; Eze💯"
+const ownervb = process.env.OWNERS || "2349030359124; VAWULENCE😈"
 
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [2347044994545];
+global.owner = [2349030359124];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
@@ -23,9 +23,9 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['2347044994545']
-global.prems = ['2347044994545']
-global.allowed = ['2347044994545']
+global.mods = ['2349030359124']
+global.prems = ['2349030359124']
+global.allowed = ['2349030359124']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -72,7 +72,7 @@ global.APIKeys = {
 global.botname = process.env.FIRE-MD
 global.premium = 'true'
 global.packname = 'FIRE MD'
-global.author = 'Eze💯'
+global.author = 'VAWULENCE😈'
 global.menuvid = 'https://files.catbox.moe/r9oil6.mp4'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/\n'
 global.dygp = 'https://whatsapp.com/channel/0029VajYjMJJf05aRQXKx82W'
