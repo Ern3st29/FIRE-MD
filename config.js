@@ -6,12 +6,12 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "2349013432338; Opaksfire"
+const ownervb = process.env.OWNERS || "2347044994545; Eze💯"
 
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [2347044994545];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
@@ -23,9 +23,9 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['2349013432338', '2349013432338']
-global.prems = ['2349013432338', '2349013432338', '2349013432338']
-global.allowed = ['2349013432338', '2349013432338', '2349013432338']
+global.mods = ['2347044994545']
+global.prems = ['2347044994545']
+global.allowed = ['2347044994545']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -69,10 +69,10 @@ global.APIKeys = {
 }
 
 // Sticker WM
-global.botname = process.env.BOTNAME
-global.premium = 'false'
+global.botname = process.env.FIRE-MD
+global.premium = 'true'
 global.packname = 'FIRE MD'
-global.author = 'OPAKSFIRE'
+global.author = 'Eze💯'
 global.menuvid = 'https://files.catbox.moe/r9oil6.mp4'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/\n'
 global.dygp = 'https://whatsapp.com/channel/0029VajYjMJJf05aRQXKx82W'
@@ -82,15 +82,15 @@ global.fgpyp = 'https://youtube.com/'
 global.fglog = 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg'
 global.thumb = fs.readFileSync('./Assets/fire.jpg')
 
-global.wait = '*🕑 _processing..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*🕑 _pls wait😴...._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '🕑'
 global.dmoji = '🤭'
-global.done = '✅'
-global.error = '❌'
+global.done = 'Here you go😐'
+global.error = 'umm...somethings wrong❌'
 global.xmoji = '🔥'
 
 global.multiplier = 69
-global.maxwarn = '3'
+global.maxwarn = '5'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
